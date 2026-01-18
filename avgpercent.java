@@ -6,7 +6,7 @@ public class avgpercent {
         int total = phy + chem + math;
         double avgpercent = total / 3.0;
 
-        System.out.println("Average percentage: " + avgpercent);
+        System.out.printf("Sam’s average mark in PCM is %.2f", avgpercent);
     }
     
 }
