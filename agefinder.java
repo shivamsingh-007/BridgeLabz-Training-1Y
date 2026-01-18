@@ -3,6 +3,6 @@ public class agefinder{
         int YOB = 2000;
         int currentYear = 2024;
         int age = currentYear - YOB;
-        System.out.println("Age: " + age);
+        System.out.println("Age is : " + age);
     }
 }
