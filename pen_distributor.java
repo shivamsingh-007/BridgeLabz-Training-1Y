@@ -4,7 +4,6 @@ public class pen_distributor {
         int total_students= 3;
         int  foreachstudent = total_pens / total_students;
         int remaining_pens = total_pens %total_students;
-        System.out.println("Number of boxes needed: " + foreachstudent);
-        System.out.println("Remaining pens: " + remaining_pens);
+        System.out.printf("The Pen Per Student is %d and the remaining pen not distributed is %d", foreachstudent, remaining_pens);
     }
 }
