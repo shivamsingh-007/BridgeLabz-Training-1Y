@@ -1,21 +1,20 @@
-import java.util.Scanner;
+import java.util.*;
 public class Student {
-static void display(String name, int age,int id_roll){
+    int id;
+    int age;
+    String name;
+void display(String name, int age,int id_roll){
     System.out.println("Name: " + name);
     System.out.println("Age: " + age);
     System.out.println("ID Roll: " + id_roll);
 }
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        System.out.println("Enter student id roll:");
-        int id_roll = input.nextInt();
-        System.out.println("Enter student age:");
-        int age = input.nextInt();
-        System.out.println("Enter student name:");
-        String name = input.next();
+        Student s1 =   new Student();
+s1.id = 120;
+s1.age = 18;
+s1.name ="rahul";
 
 
-
-        display(name, age, id_roll);
+        s1.display(s1.name, s1.age, s1.id);
     }
 }
