@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Student {
-static void student_info(String name, int age,int id_roll){
+static void display(String name, int age,int id_roll){
     System.out.println("Name: " + name);
     System.out.println("Age: " + age);
     System.out.println("ID Roll: " + id_roll);
@@ -16,6 +16,6 @@ static void student_info(String name, int age,int id_roll){
 
 
 
-        student_info(name, age, id_roll);
+        display(name, age, id_roll);
     }
 }
