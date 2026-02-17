@@ -6,11 +6,7 @@ class superkeywordex {
     void display(){
         System.out.println("working");
     }
-   
-    }
-    public static void main(String[] args) {
-        superkeywordex s1 = new superkeywordex();
-    }
+}
 
 class child extends superkeywordex{
     int x =20;
