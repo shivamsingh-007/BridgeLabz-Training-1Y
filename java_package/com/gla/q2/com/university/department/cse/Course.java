@@ -1,0 +1,21 @@
+package com.university.department.cse;
+
+public class Course {
+
+    private String courseName;
+    private int courseCode;
+    private int credits;
+
+    public Course(String courseName, int courseCode, int credits) {
+        this.courseName = courseName;
+        this.courseCode = courseCode;
+        this.credits = credits;
+    }
+
+    public void displayCourseDetails() {
+        System.out.println("--- Course Details ---");
+        System.out.println("Course Name : " + courseName);
+        System.out.println("Course Code : " + courseCode);
+        System.out.println("Credits     : " + credits);
+    }
+}
