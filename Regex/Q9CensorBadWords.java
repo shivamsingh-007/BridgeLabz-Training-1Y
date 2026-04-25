@@ -1,0 +1,7 @@
+public class Q9CensorBadWords {
+    public static void main(String[] args) {
+        String input = "This is a damn bad example with some stupid words.";
+        String output = input.replaceAll("(?i)\\b(damn|stupid)\\b", "****");
+        System.out.println(output);
+    }
+}
